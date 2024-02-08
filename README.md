@@ -1,1 +1,1 @@
-# Earthquake-SS-API
+# WebScraping-101

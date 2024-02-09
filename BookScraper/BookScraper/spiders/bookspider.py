@@ -8,7 +8,7 @@ class BookspiderSpider(scrapy.Spider):
 
     def parse(self, response):
         """
-        Return a data of dictionary.
+        Return a iterable data
         """
         books = response.css("article.product_pod")
         for book in books:
